@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do list</title>
+    <link rel="stylesheet" href="todo.css"/>
+</head>
+<body>
+    <div class="container"> <!--whole tag or whole code-->
+     <div class="header">To-Do list</div> <!-- work name with Header class provide for styling-->
+       <div class="addTask"> <!--we want add task for this tag class use-->
+           <input type="text" placeholder="Add a new task" id="inputTask">
+           <button onclick="addTask()">Add Task</button> <!--onclick handler lagenge jbhi es button pr click ho add ho jaye-->
+        </div>
+       <ul class="task-list" id="taskList"></ul> <!--list ki form mein add task chiae, id given for js code easy -->
+    </div>
+    <script src="todo.js"></script>
+</body>
+</html>
